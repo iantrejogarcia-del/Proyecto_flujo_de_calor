@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flujocalor.Historia"
+    android:background="#FFE0B2">
+
+
+
+    <ImageButton
+        android:id="@+id/btnimhist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/baseline_arrow_forward_24"
+        android:backgroundTint="#FB8C00"/>
+    <ImageButton
+        android:id="@+id/btnimhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/baseline_home_filled_24"
+        android:backgroundTint="#FB8C00"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="97dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HISTORIA DEL FLUJO DE CALOR"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jean-Baptiste Joseph Fourier"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:id="@+id/imageView00"
+                android:layout_width="373dp"
+                android:layout_height="264dp"
+                android:gravity="center"
+                app:srcCompat="@mipmap/ean"
+                tools:ignore="MissingConstraints"
+                android:layout_gravity="center"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="129dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Jean-Baptiste Joseph Fourier fue un matemático y físico francés del siglo XVIII y XIX conocido por sus contribuciones fundamentales al estudio del flujo de calor. Fourier es especialmente famoso por su trabajo en el análisis de series trigonométricas y por su teoría del calor."
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="En el contexto del flujo de calor, Fourier formuló su famosa Ley de Conducción del Calor, que establece que la tasa de transferencia de calor a través de un material es directamente proporcional al área de contacto, al gradiente de temperatura y a la conductividad térmica del material, e inversamente proporcional al espesor del material. "
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Antiguedad"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los primeros intentos de comprender el calor y su transferencia se remontan a la antigüedad. Civilizaciones como la egipcia, la griega y la romana tenían cierto conocimiento de los conceptos básicos del calor. Aristóteles, por ejemplo, formuló la idea de que el calor era una sustancia llamada calórico que fluía de un objeto caliente a uno frío."
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Durante la Revolución Científica, se realizaron importantes avances en la comprensión del calor. Figuras como Galileo Galilei y Robert Boyle exploraron los conceptos de calor específico y expansión térmica. Sin embargo, fue el trabajo de científicos como Isaac Newton y Joseph Black lo que sentó las bases para una comprensión más profunda de la transferencia de calor. Black, por ejemplo, realizó experimentos que demostraron que el calor era una forma de energía y que podía ser absorbido o liberado durante cambios de estado."
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Joseph Black"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Físico y químico escocés"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+            <ImageView
+                android:id="@+id/imageView02"
+                android:layout_width="373dp"
+                android:layout_height="264dp"
+                android:gravity="center"
+                app:srcCompat="@mipmap/black_joseph"
+                tools:ignore="MissingConstraints"
+                android:layout_gravity="center"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="129dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siglo XIX"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Durante este período, se produjeron avances significativos en la comprensión de la transferencia de calor. Uno de los hitos más importantes fue la formulación de las leyes de la termodinámica. Figuras como Sadi Carnot, Rudolf Clausius y Lord Kelvin desarrollaron conceptos fundamentales como el ciclo de Carnot, la entropía y la temperatura absoluta. Además, el físico escocés James Clerk Maxwell formuló las ecuaciones del electromagnetismo, que también tienen implicaciones en la transferencia de calor."
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="James Clerk Maxwell"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textStyle="bold"
+                android:textColor="#FB8C00"
+            android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Físico y químico escocés"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:id="@+id/imageView03"
+                android:layout_width="373dp"
+                android:layout_height="264dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:srcCompat="@mipmap/jamessss"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="129dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siglo XX"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" El siglo XX vio el desarrollo de la física estadística y la mecánica cuántica, lo que permitió una comprensión más profunda de los procesos microscópicos que subyacen a la transferencia de calor. La teoría cinética de los gases, propuesta por Ludwig Boltzmann, explicó cómo la energía térmica se distribuye entre las partículas en un gas. Además, figuras como Albert Einstein y Niels Bohr realizaron contribuciones importantes al campo de la física cuántica, que también tiene implicaciones en la transferencia de calor a escalas microscópicas."
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Niels Bohr"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Físico danés"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+            <ImageView
+                android:id="@+id/imageView04"
+                android:layout_width="373dp"
+                android:layout_height="264dp"
+                android:gravity="center"
+                app:srcCompat="@mipmap/nielss"
+                tools:ignore="MissingConstraints"
+                android:layout_gravity="center"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="129dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siglo XXI"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FB8C00"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En la actualidad, la transferencia de calor sigue siendo un área activa de investigación, con aplicaciones en una amplia gama de campos, desde la ingeniería hasta la climatología y la ciencia de materiales. Los avances en la modelización computacional, la nanotecnología y la energía renovable están impulsando nuevas investigaciones y aplicaciones en el campo de la transferencia de calor."
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#804000" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/btnimreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/baseline_arrow_back_24"
+        android:backgroundTint="#FB8C00"/>
+
+</RelativeLayout>
